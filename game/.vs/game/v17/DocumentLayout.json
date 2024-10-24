@@ -10,7 +10,7 @@
       "AbsoluteMoniker": "D:0:0:{C3497403-DB14-4054-8E9F-086BDC70CF78}|game.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UM\\WINBASE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3497403-DB14-4054-8E9F-086BDC70CF78}|game.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UM\\WINDOWS.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\Windows.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +36,7 @@
               "Title": "WinBase.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinBase.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinBase.h",
-              "ViewState": "AQIAAAAEAAAAAAAAAAAWwBAEAAAVAAAA",
+              "ViewState": "AQIAAAIEAAAAAAAAAAAawAoEAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-24T20:35:22.546Z",
               "EditorCaption": ""
@@ -49,8 +49,7 @@
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\Windows.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T20:35:18.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T20:35:18.019Z"
             },
             {
               "$type": "Document",
@@ -60,7 +59,7 @@
               "RelativeDocumentMoniker": "src\\main.cpp",
               "ToolTip": "D:\\!proga_institut\\20241024gamejam\\game\\src\\main.cpp",
               "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-24T19:43:21.925Z",
               "EditorCaption": ""

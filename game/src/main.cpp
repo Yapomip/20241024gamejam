@@ -6,7 +6,7 @@
 #pragma comment(lib, "SDL2.lib")
 
 
-INT WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, INT nShowCmd )
+INT CALLBACK WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, INT nShowCmd )
 {
     return 0;
 }
