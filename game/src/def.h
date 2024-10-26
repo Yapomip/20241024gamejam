@@ -3,7 +3,7 @@
 
 #include "Windows.h"
 
-#ifdef DEBUG
+#ifdef _DEBUG
     #define GAME_DEBUG
 #endif // DEBUG
 

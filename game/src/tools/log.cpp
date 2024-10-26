@@ -8,7 +8,7 @@ VOID InitLog( VOID )
     freopen("CONOUT$", "w", stdout);
 #endif // GAME_DEBUG
 }
-VOID Log( std::string out )
+VOID Log( const std::string & out )
 {
 #ifdef GAME_DEBUG
     std::cout << out << "\n";

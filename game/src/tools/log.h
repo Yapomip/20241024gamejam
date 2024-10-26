@@ -4,6 +4,6 @@
 #include "def.h"
 
 VOID InitLog( VOID );
-VOID Log( std::string out );
+VOID Log( const std::string &out );
 
 #endif // !__log_h__

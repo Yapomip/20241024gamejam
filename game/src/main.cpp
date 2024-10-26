@@ -8,7 +8,8 @@ static struct system_static_init {
 
         if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
         {
-            std::cout << "SDL_Init Error: " << SDL_GetError() << std::endl;
+            Log("SDL_Init Error: ");
+            Log(SDL_GetError());
             exit(0);
         }
     }
