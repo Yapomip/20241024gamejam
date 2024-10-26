@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{d9399a5e-c4b2-4bd3-8231-0b8cb59afc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{57f8b1d6-e00d-4783-8d2a-21c1de3c1f55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\log.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\render.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precompiled.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\render.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\log.h">
+      <Filter>Source Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\render_object.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

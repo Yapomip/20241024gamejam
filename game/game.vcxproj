@@ -94,6 +94,8 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\src;</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -111,6 +113,8 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\src;</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -156,6 +160,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\precompiled.cpp" />
+    <ClCompile Include="src\render\render.cpp" />
+    <ClCompile Include="src\tools\log.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\def.h" />
+    <ClInclude Include="src\precompiled.h" />
+    <ClInclude Include="src\render\render_object.h" />
+    <ClInclude Include="src\render\render.h" />
+    <ClInclude Include="src\tools\log.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
