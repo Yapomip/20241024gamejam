@@ -1,13 +1,14 @@
 
 #include "precompiled.h"
+#include <conio.h>
 
 VOID Exit( VOID )
 {
 #ifdef GAME_DEBUG
-    Log("\nPut some key\n");
+    Log_no_end("Put some key: ");
 
     freopen("CONOUT$", "r", stdout);
-    getchar();
+    _getch();
 #endif // GAME_DEBUG
     exit(0);
 }
