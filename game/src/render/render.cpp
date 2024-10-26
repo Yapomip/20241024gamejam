@@ -46,7 +46,7 @@ VOID render::Destroy( VOID )
 VOID render::Exit( VOID )
 {
     Destroy();
-    exit(0);
+    ::Exit();
 }
 
 VOID render::Input( VOID )

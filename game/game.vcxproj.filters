@@ -33,6 +33,9 @@
     <ClCompile Include="src\render\render.cpp">
       <Filter>Source Files\render</Filter>
     </ClCompile>
+    <ClCompile Include="src\tools\tools.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\def.h">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="src\render\render_object.h">
       <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\tools.h">
+      <Filter>Source Files\tools</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
