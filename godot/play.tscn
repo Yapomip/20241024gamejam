@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://dakwed1r8csof"]
+
+[ext_resource type="Script" path="res://container.gd" id="1_5emrs"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 403.0
+offset_top = 35.0
+offset_right = 690.0
+offset_bottom = 172.0
+theme_override_font_sizes/font_size = 100
+text = "GAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Container" type="Container" parent="."]
+anchors_preset = -1
+offset_left = -32.0
+offset_right = 241.0
+offset_bottom = 96.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5emrs")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://c74ckwuxltlp6"]
+
+[ext_resource type="PackedScene" uid="uid://chyi3kiqkanid" path="res://background.tscn" id="1_tfoo6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+clip_contents = true
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 343.0
+offset_top = 3.0
+offset_right = 782.0
+offset_bottom = 140.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 100
+text = "OPTIONS"
+vertical_alignment = 1
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("1_tfoo6")]
